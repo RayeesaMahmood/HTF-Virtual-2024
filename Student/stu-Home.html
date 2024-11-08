@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<center>
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,27 +7,45 @@
 </head>
 <body>
 
-<h1>TechFusion</h1>
-
-<!-- About Us and Contact Us buttons in the top-right corner -->
-<div>
-    <button>About Us</button>
-    <button>Contact Us</button>
+<!--Header-->
+<div class="blank" style="padding: 0rem -1rem;">
+    <div class="Header" style="display: flex; justify-content: space-between; align-items: center;">
+        <h2 style="padding: 0rem 2rem; color: black;">TechFusion</h2>
+        <div class="contact-me" style="padding: 0rem 2rem;">
+            <h2>
+                <span style="font-size: 15px; margin-right: 10px;"><a href="mailto:kaleemreda@gmail.com" style="text-decoration: none;color: rgb(0, 0, 0);"><span style="color: rgb(123, 123, 123);">Contact Us</span> </a></span>
+                <span style="font-size: 15px;"><a href="mailto:kaleemreda@gmail.com" style="text-decoration: none;color: rgb(0, 0, 0);"><span style="color: rgb(123, 123, 123);">About Us</span> </a></span>
+            </h2>
+        </div>
+    </div>
 </div>
 
-<!-- Student Login Section -->
-<h2>Student Login</h2>
+<!--Header-->
 
-<form>
-    <label for="rollNo">Roll No</label>
-    <input type="text" id="rollNo" name="rollNo" required><br><br>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2 style="margin-right: auto;">Student LogIn</h2>
+</div>
 
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" required><br><br>
 
-    <button type="submit">Submit</button>
-</form>
+<div style="display: flex; justify-content: center; align-items: center; height: 50vh;">
+    <form>
+        <div style="margin-bottom: 1rem; display: flex; align-items: center;">
+            <label for="rollNo" style="margin-right: 1rem; width: 100px;">Roll No</label>
+            <input type="text" id="rollNo" name="rollNo" required>
+        </div>
+        <div style="margin-bottom: 1rem; display: flex; align-items: center;">
+            <label for="password" style="margin-right: 1rem; width: 100px;">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+<div style="position: fixed; bottom: 20px; right: 20px;">
+    <button>Back</button>
+</div>
 
 </body>
 </html>
-</center>
