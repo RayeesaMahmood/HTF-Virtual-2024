@@ -6,25 +6,42 @@
     <title>TechFusion - Student Login</title>
 </head>
 <body>
+<!--Header-->
+    <div class="blank" style="padding: 0rem -1rem;">
+        <div class="Header" style="display: flex; justify-content: space-between; align-items: center;">
+            <h2 style="padding: 0rem 2rem; color: black;">TechFusion</h2>
+            <div class="contact-me" style="padding: 0rem 2rem;">
+                <h2>
+                    <span style="font-size: 15px; margin-right: 10px;"><a href="mailto:kaleemreda@gmail.com" style="text-decoration: none;color: rgb(0, 0, 0);"><span style="color: rgb(123, 123, 123);">Contact Us</span> </a></span>
+                    <span style="font-size: 15px;"><a href="mailto:kaleemreda@gmail.com" style="text-decoration: none;color: rgb(0, 0, 0);"><span style="color: rgb(123, 123, 123);">About Us</span> </a></span>
+                </h2>
+            </div>
+        </div>
+    </div>
 
-<h1>TechFusion</h1>
+<!--Header-->
+
 <div 
 style="position: absolute; top: 10px; right: 10px;">
-    <button onclick="location.href='#about'">About Us</button>
-    <button onclick="location.href='#contact'">Contact Us</button>
-</div>
-<center>
-<form>
-    <label for="studentLogin">👨‍🎓 Student Login</label>
-    <input type="text" id="studentLogin" name="studentLogin" required><br><br>
-
-    <label for="adminLogin">👨‍💼 Admin Login</label>
-    <input type="text" id="adminLogin" name="adminLogin"><br><br>
-
-    <button type="button" onclick="location.href='register.html'">Register</button><br><br>
-
    
-</form>
-</center>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 80vh; margin-top: -10vh;">
+    <form>
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <label for="studentLogin" style="width: 150px;">👨‍🎓 Student Login</label>
+            <input type="text" id="studentLogin" name="studentLogin" required style="flex: 1;">
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+            <label for="adminLogin" style="width: 150px;">👨‍💼 Admin Login</label>
+            <input type="text" id="adminLogin" name="adminLogin" style="flex: 1;">
+        </div>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <button type="button" onclick="location.href='register.html'" style="margin-top: 10px;">Register</button>
+        </div>
+    </form>
+</div>
 </body>
 </html>
