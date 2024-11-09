@@ -1,1 +1,82 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFusion - Student Data</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>TechFusion</h1>
+        <div style="position: absolute; top: 10px; right: 10px;">
+            <button onclick="window.location.href='#about'">About Us</button>
+            <button onclick="window.location.href='#contact'">Contact Us</button>
+        </div>
+    </header>
+
+    <!-- Student Data Section -->
+    <section>
+        <h2>Welcome!!</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Student Name</th>
+                <th>User ID</th>
+                <th>Roll</th>
+                <th>Hostel</th>
+                <th>Approval/Reject</th>
+                <th>Remark</th>
+            </tr>
+            <!-- Row 1 -->
+            <tr>
+                <td>Rayray</td>
+                <td>1001</td>
+                <td>R001</td>
+                <td>Hostel A</td>
+                <td>
+                    <select>
+                        <option value="approve">Approve</option>
+                        <option value="reject">Reject</option>
+                    </select>
+                </td>
+                <td><input type="text" placeholder="Remark..."></td>
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+                <td>Vayvay</td>
+                <td>1002</td>
+                <td>R002</td>
+                <td>Hostel B</td>
+                <td>
+                    <select>
+                        <option value="approve">Approve</option>
+                        <option value="reject">Reject</option>
+                    </select>
+                </td>
+                <td><input type="text" placeholder="Remark..."></td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td>rere</td>
+                <td>1003</td>
+                <td>R003</td>
+                <td>Hostel C</td>
+                <td>
+                    <select>
+                        <option value="approve">Approve</option>
+                        <option value="reject">Reject</option>
+                    </select>
+                </td>
+                <td><input type="text" placeholder="Remark..."></td>
+            </tr>
+        </table>
+        
+        <!-- Confirm Button -->
+        <div style="margin-top: 20px;">
+            <button onclick="confirmData()">Confirm</button>
+        </div>
+    </section>
+
+
+       
